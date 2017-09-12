@@ -68,7 +68,7 @@ spec:
           # Uncomment the following line to manually specify Kubernetes API server Host
           # If not specified, Dashboard will attempt to auto discover the API server and connect
           # to it. Uncomment only if the default does not work.
-           - --apiserver-http://apiserver-insecure.kubernetes.l4lb.thisdcos.directory:8999
+           - --apiserver-http://apiserver-insecure.kubernetes.l4lb.thisdcos.directory:9000
         livenessProbe:
           httpGet:
             path: /
